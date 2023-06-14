@@ -34,7 +34,7 @@ const AppRouters = () => {
         <ContextProvider>
           <Routes>
               
-          <Route index element={<Login />} />
+          <Route path='/' index element={<Login />} />
           <Route path={"/register"} element={<Register />}/>
             
           
