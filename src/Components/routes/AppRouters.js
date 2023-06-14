@@ -41,7 +41,7 @@ const AppRouters = () => {
           <Route path="shopDetails" element={<ShopDetails />} />
           <Route path="pizzasDetails" element={<CardsDetails />} />
           <Route path="confirmationShop" element={<ConfirmationShop />} />
-            <Route path={"/"} element={<Layout />}>
+            <Route path={"/Home"} element={<Layout />}>
               <Route path={"/Home"} element={<Home />} />
               
               <Route path="searchPizzas" element={<SearchsPizzas />} />
