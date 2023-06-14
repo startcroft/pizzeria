@@ -1,0 +1,56 @@
+
+
+.back{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.712)),
+            url(https://i.pinimg.com/564x/78/d3/d1/78d3d16c5eda5bc8ab477581c02583cb.jpg);
+
+    background-repeat: no-repeat;
+        }
+
+        
+.container__form{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+   
+    
+}
+
+.main__container{
+
+    &__register{
+         
+        color:white;
+        padding: 20PX;
+        
+        
+    }
+}
+
+
+    .form__register1{
+
+        color:white;
+        padding: 20PX;
+        
+ }
+
+ .register{
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    border: 10px solid black;
+    border-radius: 20px;
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      z-index: 1;
+      width: 96%;
+      height: 98%;
+      border-radius: 11px;
+      filter: brightness(0.5);
+    }
+}

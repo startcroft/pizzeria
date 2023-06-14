@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Geologica:wght@100;400&family=Josefin+Sans:wght@300&family=Sora&display=swap');
+
+.LayoutContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    padding: 20px;
+    background-color: #ffe4ec;
+    h1{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .profilePhoto{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+}
+

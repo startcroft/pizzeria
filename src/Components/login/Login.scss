@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.back {
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.712)),
+            url("../../assest/bg.png");    
+    
+}
+
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+.logo {
+    width: 190px;
+    margin-left: 60px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 80%;
+    border-bottom: 1px solid white;
+    line-height: 60px;
+    margin-left: 30px;
+
+
+}
+
+section h1 {
+    font-size: 22px;
+}
+
+section h3 {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 10px
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    margin-left: 30px;
+    color: white;
+    font-size: 10px;
+    line-height: 35px;
+
+    h2{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+    color: white;
+
+    input {
+      margin-left: 10px;
+      background-color: transparent;
+      border: none;
+      color: white;
+    }
+
+    ::placeholder {
+      color: white;
+      font-size: 15px;
+    }
+
+    button {
+      border: none;
+      height: 35px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+  }
+
+  .input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+  }
+
+  .linkRegister {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+
+    h5 {
+      margin-top: 40px;
+      font-size: 12px;
+      
+    }
+
+    .register {
+      background-color: transparent;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+    }
+  }
+  .formRegister {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 150px;
+  }
+
+
+
+
+// .button__input {
+//     border: none;
+//     padding: 20px;
+//     margin-top: 60px;
+//     border-radius: 5px;
+//     width: 250px;
+//     cursor: pointer;
+// }
+
+// .min__footer {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     span{
+//         color: white;
+//     }
+// }
+
+// .end{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-top: 20px;
+//     line-height: 40px;
+//     color: white;
+//     font-size: 15px;
+
+//     button{
+//         border: none;
+//         background: transparent;
+//         color: white;
+//         font-size: large;
+//         cursor:pointer;
+//     }
+// }

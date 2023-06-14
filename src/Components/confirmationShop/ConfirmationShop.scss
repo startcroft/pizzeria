@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .prueba {
+    border-radius: 10px;
+    margin-top: 17px;
+    width: 65%;
+    margin-left: 58px;
+  }
+  .contenedor__procesado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+    gap: 30px;
+    background-color:#ffe0e6;
+    height: 100vh;
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .titulo__procesado {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .subtitulo{
+    color: dimgrey;
+  }
+  .boton__procesado {
+    border-style: none;
+    height: 54px;
+    color: white;
+    background-color: #FF0A54;
+    width: 305px;
+    border-radius: 3px;
+    margin-top: 106px;
+  }
+  

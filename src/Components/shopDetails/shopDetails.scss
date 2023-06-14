@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.contenedor__todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faf4f4;
+ 
+}
+.imagen__shop{
+    height: 113px;
+    padding: 14px;
+    width: 159px;
+}
+.contenedor__shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    height: 106px;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+}
+.name__shop{
+    display: flex;
+    font-weight: 500;
+    color: gray;
+}
+.cantidad__shop{
+    display: flex;
+    font-weight: 700;
+}
+.price__shop{
+    font-weight: 700;
+    margin-top: 66px;
+    margin-left: -70px;
+    position: relative;
+    z-index: 100;
+}
+.containerformulario{
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;
+    width: 50%;
+    gap: 10px;
+    margin-left: -99px;
+}
+.boton__salir{
+    display: flex;  
+    margin-top: 20px;
+    width: 50%;
+    gap: 5px;
+    font-size: 11px;
+    margin-left: -148px;
+}
+.boton__salir__pago{
+    border-style: none;
+    background-color: transparent;
+}
+.boton__atras{
+    height: 20px;
+}
+.contenedor__fecha{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 19px;
+    align-items: end;
+}
+.card__compra{
+    display: flex;
+    background-color: white;
+    height: 111px;
+    width: 316px;
+    border-radius: 3px;
+    margin-left: -6px;
+}
+.boton__form{
+    border-style: none;
+    height: 54px;
+    color: white;
+    background-color: #FF0A54;
+    width: 305px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+.title__shop{
+    font-size: 20px;
+    padding-top: 16px;
+}
+.form-control{
+    width: 301px;
+    margin-left: 1px;
+    color: black;
+}
+.form-control-fecha{
+   margin-left: 1px;
+   width: 154px;
+   color: black;
+}
+.form-control-cvv{
+    margin-left: 1px;
+    width: 123px;
+    color: black;
+ }
