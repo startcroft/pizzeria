@@ -42,7 +42,7 @@ const AppRouters = () => {
           <Route path="pizzasDetails" element={<CardsDetails />} />
           <Route path="confirmationShop" element={<ConfirmationShop />} />
             <Route path={"/"} element={<Layout />}>
-              <Route path={"/Home"} index element={<Home />} />
+              <Route path={"/Home"} element={<Home />} />
               
               <Route path="searchPizzas" element={<SearchsPizzas />} />
              
